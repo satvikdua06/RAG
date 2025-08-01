@@ -15,14 +15,21 @@ A Flask-based Retrieval-Augmented Generation (RAG) system that allows users to u
 ## Project Structure
 
 ```
-.
-├── app.py              # Main Flask application, backend logic, RAG pipeline
-├── requirements.txt    # Python package dependencies
+rag-chat-assistant/
+├── app.py                 # Your existing main application
+├── run.py                 # New alternative entry point
+├── requirements.txt       # Your existing dependencies
+├── README.md             # New complete documentation
+├── LICENSE               # New MIT license
+├── .env.example          # New environment template
+├── .gitignore           # New gitignore
+├── Dockerfile           # New Docker support
+├── docker-compose.yml   # New Docker Compose
 ├── templates/
-│   └── index.html      # Frontend chat interface
-├── uploads/            # Directory for storing uploaded files temporarily
-├── .env                # File for environment variables (API keys)
-└── rag_system.log      # Log file for debugging and tracking
+│   └── index.html       # Your existing frontend
+├── uploads/             # Created automatically
+├── .env                 # User creates from .env.example
+└── rag_system.log      # Created automatically
 ```
 
 ## API Endpoints
