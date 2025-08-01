@@ -79,25 +79,30 @@ Start the Flask server with the following command:
 python app.py
 The application will be accessible at http://127.0.0.1:5000. Open this URL in your web browser to start using the chat assistant.
 
-📂 Project Structure
+# Project Structure
+
+```
 .
 ├── app.py              # Main Flask application, backend logic, RAG pipeline
 ├── requirements.txt    # Python package dependencies
-├── templates
+├── templates/
 │   └── index.html      # Frontend chat interface
 ├── uploads/            # Directory for storing uploaded files temporarily
 ├── .env                # File for environment variables (API keys)
 └── rag_system.log      # Log file for debugging and tracking
-📜 API Endpoints
+```
+
+## API Endpoints
+
 The Flask application exposes the following RESTful API endpoints:
 
-Method	Endpoint	Description
-POST	/api/session/create	Initializes a new user session.
-POST	/api/ingest	Ingests an uploaded file (PDF, Excel, CSV, etc.).
-POST	/api/ingest/url	Ingests content from a public URL.
-POST	/api/chat	Handles user chat queries and returns a response.
-POST	/api/session/clear	Clears all data associated with the current session.
-GET	/api/session/info	Retrieves information about the current session.
-GET	/api/health	Health check endpoint for monitoring.
-GET	/api/stats	Provides system-wide statistics.
-
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/session/create` | Initializes a new user session |
+| `POST` | `/api/ingest` | Ingests an uploaded file (PDF, Excel, CSV, etc.) |
+| `POST` | `/api/ingest/url` | Ingests content from a public URL |
+| `POST` | `/api/chat` | Handles user chat queries and returns a response |
+| `POST` | `/api/session/clear` | Clears all data associated with the current session |
+| `GET` | `/api/session/info` | Retrieves information about the current session |
+| `GET` | `/api/health` | Health check endpoint for monitoring |
+| `GET` | `/api/stats` | Provides system-wide statistics |
