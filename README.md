@@ -2,7 +2,7 @@
 
 A Flask-based Retrieval-Augmented Generation (RAG) system that allows users to upload documents and chat with their data using Google's Gemini AI.
 
-**Still a work in progress the Tables are still not perfect**
+**Still a work in progress the Tables are still not perfect.**
 
 ## Features
 
