@@ -100,6 +100,4 @@ POST	/api/session/clear	Clears all data associated with the current session.
 GET	/api/session/info	Retrieves information about the current session.
 GET	/api/health	Health check endpoint for monitoring.
 GET	/api/stats	Provides system-wide statistics.
-```bash
-git clone <your-repository-url>
-cd <repository-directory>
+
