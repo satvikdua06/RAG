@@ -1,0 +1,24 @@
+# Web Framework
+flask
+flask-cors
+
+# Google AI
+google-generativeai
+tenacity
+
+# Data Processing
+pandas
+openpyxl
+numpy
+
+# PDF and Web Content Processing
+pymupdf
+beautifulsoup4
+requests
+lxml
+
+# Vector Store
+faiss-cpu
+
+# Environment Variables
+python-dotenv
